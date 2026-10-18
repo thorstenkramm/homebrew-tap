@@ -1,9 +1,9 @@
 cask "mailfire" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.2.0"
-  sha256 arm:   "fb5893d46a74cbdc8fb41723df4f3d9965d49ecaa3d86d5fae5b478ce9c54f21",
-         intel: "7d266d52891dc01a469b13f0522c2fbdc91e4c370a6cf1e3eaa1d8ca50c1fef2"
+  version "0.3.0"
+  sha256 arm:   "c28bc7f4d34c82c42b784261790bf045f838caa5f785d643c62af235e288394e",
+         intel: "f38370183bbca366d4dfa68f22864b78aacea9d4403ca2c203b2ddc9eece331b"
 
   url "https://github.com/thorstenkramm/mailfire/releases/download/v#{version}/mailfire_#{version}_darwin_#{arch}.tar.gz"
   name "Mailfire"
