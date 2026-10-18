@@ -1,13 +1,13 @@
 cask "mailfire" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.3.0"
-  sha256 arm:   "c28bc7f4d34c82c42b784261790bf045f838caa5f785d643c62af235e288394e",
-         intel: "f38370183bbca366d4dfa68f22864b78aacea9d4403ca2c203b2ddc9eece331b"
+  version "0.4.0"
+  sha256 arm:   "7c2eac82cf934e6c2f7e07dd0216d1511aa241913acb8648f96cc8cf4d3bf0f4",
+         intel: "1411aed1f8dcb5c554f96b4475400877d0b561b0f8f38b65578ad24ea937f960"
 
   url "https://github.com/thorstenkramm/mailfire/releases/download/v#{version}/mailfire_#{version}_darwin_#{arch}.tar.gz"
   name "Mailfire"
-  desc "Send email from the command-line via the Mailgun API"
+  desc "Send email from the command-line via Mailgun, Gmail, or SMTP"
   homepage "https://github.com/thorstenkramm/mailfire"
 
   depends_on :macos
